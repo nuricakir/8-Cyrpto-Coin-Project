@@ -4,16 +4,10 @@
 
 ![2023-04-09 (2)](https://user-images.githubusercontent.com/112883476/230785197-03749519-f0bd-4729-be88-c3a18f6690a9.png)
 
+Youtube Link: 
+https://www.youtube.com/watch?v=_ARqIZlvOGQ
 
 
-
-
-
-
-
-
-
-Youtube Link: https://youtu.be/_ARqIZlvOGQ
 
 
 
