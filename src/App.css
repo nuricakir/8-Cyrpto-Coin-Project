@@ -1,0 +1,145 @@
+.App {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.coin-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.coin h2 {
+  font-size: 16px;
+  width: 100px;
+}
+
+.coin-input {
+  padding-left: 16px;
+  width: 525px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: bolder;
+  border: none;
+  background: #3e2257;
+  color: rgb(255, 255, 255);
+}
+.coin-input:focus {
+  outline: solid rgb(156, 97, 211);
+}
+.coin-input::placeholder {
+  color: rgb(200, 193, 193);
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.coin-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  border: 2px solid #3b23c4;
+  border-radius: 30px;
+  background-color: rgb(211, 201, 236);
+  width: 500px;
+
+  padding: 0.2rem 1.5rem;
+  margin-bottom: 0.3rem;
+}
+.coin-row:hover {
+  background: #d2bfbf;
+  background: -webkit-linear-gradient(to right, #47474b, #3c3b3f);
+  background: linear-gradient(to right, #47474b, #3c3b3f);
+}
+
+.coin {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.coin img {
+  height: 40px;
+  width: 40px;
+}
+
+.coin-symbol {
+  text-transform: uppercase;
+}
+
+.coin-data {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.coin-price {
+  width: 130%;
+  text-align: center;
+}
+.coin-percent {
+  width: 40%;
+  text-align: right;
+  justify-self: flex-end;
+}
+.coin-text {
+  color: #28125a;
+}
+
+.red {
+  color: #ca2525;
+}
+
+.green {
+  color: #248424;
+}
+
+@media screen and (max-width: 720px) {
+  .coin h2 {
+    font-size: 14px;
+    width: 100px;
+  }
+  .coin-row {
+    width: 90%;
+    font-size: 0.9rem;
+    padding: 0.2rem 1rem;
+  }
+}
+.container {
+  max-width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 3px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table-header {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background: #543b7b;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.table-data,
+.header__item {
+  flex: 1 1 20%;
+  text-align: center;
+}
+
+.header__item {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
